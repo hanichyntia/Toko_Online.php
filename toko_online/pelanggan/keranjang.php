@@ -1,10 +1,11 @@
 <?php
     session_start(); 
-    include "header.php";
+    include "../header.php";
     $subtotal=0;
 ?>
 <br>
-<link rel="stylesheet" href="style/des.css">
+<link rel="stylesheet" href="../style/des.css">
+<link rel="stylesheet" href="../style/style.css">
 <h2 align="center" style="color: white; background: rgb(230, 123, 141);" class="py-4">Cart</h2>
 <table class="table table-hover striped">
     
@@ -40,5 +41,5 @@
 </table>
     <a href="checkout.php" align="right" class="button2 btn-sm m-2 py-2 bg-dark">Change Payment Method</a><br><br><br><br><br><br><br><br><br><br>
 <?php 
-    include "footer.php";
+    include "../footer.php";
 ?>

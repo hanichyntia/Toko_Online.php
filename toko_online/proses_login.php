@@ -14,6 +14,9 @@ if ($cek>0) {
   }elseif ($data['role']=="pelanggan") {
     $_SESSION['username']=$username;
     $_SESSION['role']="pelanggan";
+
+    $user_id = $data['id_user'];
+    $_SESSION['id_user'] = $user_id;
     header("location:pelanggan/halaman_pelanggan.php");
   } 
   else {

@@ -1,7 +1,7 @@
 <?php 
 include "../header.php";
 ?>
-<link rel="stylesheet" href="../style.css?v=<?php echo time();?>">
+<link rel="stylesheet" href="../style/style.css?v=<?php echo time();?>">
 <!-- main -->
 <section class="main py-5">
   <div class="container">
