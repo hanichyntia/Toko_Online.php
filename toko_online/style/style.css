@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Monserrat', sans-serif;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.nav-item a:hover {
+    color: rgb(230, 123, 141);
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(230, 123, 141);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    box-shadow: none;
+}
+
+.btn1 {
+    background-color: rgb(230, 123, 141);
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgb(230, 123, 141);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: rgb(230, 123, 141);
+}
+
+.button a {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+
+.button a:hover {
+    color: rgb(230, 123, 141);
+}
+
+.navbar-toggler {
+    font-size: 23px;
+    color: black;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.main {
+    background: url(./produk/benner.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.main p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.main p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.mbtn1 {
+    font-weight: 600;
+    width: 25%;
+    background-color: rgb(230, 123, 141);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background-color: black;
+}
+
+.benner {
+    background: url(./produk/Frame\ 1.bmp)no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.product h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product.card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.product .card-body {
+    border: 1px dashed rgb(175, 172, 172);
+}
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: rgb(175, 172, 172);
+}
+
+.btnc {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(230, 123, 141);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btnc:hover {
+    outline: none;
+    color: rgb(230, 123, 141);
+    border: 1px solid rgb(230, 123, 141);
+    background: transparent;
+    border-radius: 50px;
+}
+
+.line {
+    height: 6px;
+    width: 30%;
+    background: rgb(230, 123, 141);
+    display: inline-block;
+}
+
+.about {
+    background: url(./produk/bennerabout1.jpg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about h1 {
+    font-weight: bold;
+}
+
+.about p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.about p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.welcome {
+    background: rgb(230, 123, 141);
+}
+
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome h2 {
+    font-weight: lighter;
+    padding: 10px 0px;
+}
